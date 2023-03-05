@@ -1,22 +1,23 @@
-# Body Mass Index (BMI) Calculator 
-This is a simple program that calculates your BMI based on your height and weight, and tells you whether you are underweight, healthy, overweight, severely overweight, obese, or severely obese.
+# Body Mass Index (BMI) Calculator Description
 
-## How to use
-Enter your height in centimeters when prompted.
+This program calculates a person's Body Mass Index (BMI) using their height and weight. It then determines the BMI category and provides nutritional advice based on the category.
 
-Enter your weight in kilograms when prompted.
+## How to Use
 
-The program will calculate your BMI and display your weight category.
+Clone the repository to your local machine.
 
-## How it works
-The program prompts the user to enter their height and weight.
+Open a terminal or command prompt in the directory containing the BMI_calculator.py file.
 
-The user's input is stored as floats in the Height and Weight variables.
+Run the program by typing python BMI_calculator.py in the terminal or command prompt.
 
-The program calculates the BMI by dividing the user's weight in kilograms by the square of their height in meters. The formula is:
+Enter your height in centimeters and weight in kilograms when prompted by the program.
 
-BMI = Weight / (Height/100)**2 
+The program will calculate your BMI and will output your BMI category, along with nutritional advice based on the category.
 
-The program uses if-elif statements to check which weight category the user falls into based on their BMI.
+## How It Works
 
-The program prints a message telling the user which weight category they fall into.
+The program uses the formula BMI = Weight / (Height/100)**2 to calculate the BMI. 
+
+It then uses if-elif-else statements to determine the BMI category and provides nutritional advice based on the category. 
+
+The program also uses the termcolor module to provide colored output for each BMI category.
