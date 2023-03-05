@@ -1,4 +1,5 @@
 # Mark's Projects
 
-## [1RM](./max-lifts)
-## [BMI](./bmi)
+## [One Rep Max Calculator](./max-lifts)
+## [BMI Calculator](./bmi)
+## [Tip Calculator](./tip-calculator)
