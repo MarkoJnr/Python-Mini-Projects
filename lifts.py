@@ -1,0 +1,5 @@
+weight = int (input("Pick a weight lifted in KG:\n"))
+reps = int (input ("How many reps can you do with this weight?:\n"))
+maximum = weight / ( 1.0278 - 0.0278 * reps )
+maximum ="{:.2f}".format (maximum)
+print (f"Your 1 one rep Max is {maximum}")
