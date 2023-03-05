@@ -8,7 +8,7 @@ Clone the repository to your local machine.
 
 Open a terminal or command prompt in the directory containing the BMI_calculator.py file.
 
-Run the program by typing python BMI_calculator.py in the terminal or command prompt.
+Run the program by typing **python BMI.py** in the terminal or command prompt.
 
 Enter your height in centimeters and weight in kilograms when prompted by the program.
 
