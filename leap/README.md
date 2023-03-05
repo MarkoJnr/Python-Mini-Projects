@@ -3,7 +3,7 @@ This Python script checks whether a given year is a leap year or not. It also pr
 
 ## How to use
 
-Clone or download the leap_year_checker.py file to your local machine.
+Clone or download the py file to your local machine.
 
 Open a command-line interface (e.g. Terminal on macOS, Command Prompt on Windows) and navigate to the directory where the file is located.
 
