@@ -21,3 +21,4 @@ Run the command python [example-project].py to launch the program.
 ## [One Rep Max Calculator](./max-lifts)
 ## [BMI Calculator](./bmi)
 ## [Tip Calculator](./tip-calculator)
+## [Leap Year Checker](./leap)
