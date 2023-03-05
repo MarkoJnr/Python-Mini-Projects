@@ -1,4 +1,4 @@
-# Mark's Projects
+# Mini Projects
 Welcome to "Mini-Projects"! This repository is a collection of small, self-contained Python projects that I have developed to practice and improve my programming skills. The projects cover a wide range of topics, including data analysis, web scraping, and machine learning, and are designed to be both fun and challenging.
 
 Each project includes a detailed README file that explains the problem statement, outlines the approach I took to solve it, and provides instructions on how to run the code. I have also included comments throughout the code to help others understand my thought process and learn from my code.
@@ -15,6 +15,8 @@ Make sure you have Python 3 installed on your system.
 Open a terminal or command prompt and navigate to the directory where you cloned the repository.
 
 Run the command python [example-project].py to launch the program.
+
+## Projects
 
 ## [One Rep Max Calculator](./max-lifts)
 ## [BMI Calculator](./bmi)
