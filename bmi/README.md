@@ -1,19 +1,22 @@
 # Body Mass Index (BMI) Calculator 
-This program calculates the Body Mass Index (BMI) of a person based on their height and weight.
+This is a simple program that calculates your BMI based on your height and weight, and tells you whether you are underweight, healthy, overweight, severely overweight, obese, or severely obese.
 
-## How to Use
+## How to use
+Enter your height in centimeters when prompted.
 
-When prompted, enter your height in centimeters.
-When prompted, enter your weight in kilograms.
-The program will calculate your BMI and display it on the screen.
+Enter your weight in kilograms when prompted.
+
+The program will calculate your BMI and display your weight category.
 
 ## How it works
+The program prompts the user to enter their height and weight.
 
-The program uses the following formula to calculate BMI:
+The user's input is stored as floats in the Height and Weight variables.
 
-BMI = weight / (height/100)**2
+The program calculates the BMI by dividing the user's weight in kilograms by the square of their height in meters. The formula is:
 
-Where weight is the person's weight in kilograms and height is their height in centimeters. The user's height is first divided by 100 to convert it to meters, which is the unit used for the BMI calculation.
-License
+BMI = Weight / (Height/100)**2
 
-This program is licensed under the MIT License. Feel free to modify and distribute it as you wish.
+The program uses if-elif statements to check which weight category the user falls into based on their BMI.
+
+The program prints a message telling the user which weight category they fall into.
