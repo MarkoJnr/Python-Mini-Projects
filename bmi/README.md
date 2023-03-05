@@ -1,13 +1,7 @@
 # Body Mass Index (BMI) Calculator 
 This program calculates the Body Mass Index (BMI) of a person based on their height and weight.
-## Installation
 
-Clone this repository to your local machine.
-Make sure you have Python 3 installed on your system.
-Open a terminal or command prompt and navigate to the directory where you cloned the repository.
-Run the command python bmi_calculator.py to launch the program.
-
-## Usage
+## How to Use
 
 When prompted, enter your height in centimeters.
 When prompted, enter your weight in kilograms.
