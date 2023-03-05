@@ -15,7 +15,7 @@ The user's input is stored as floats in the Height and Weight variables.
 
 The program calculates the BMI by dividing the user's weight in kilograms by the square of their height in meters. The formula is:
 
-BMI = Weight / (Height/100)**2
+BMI = Weight / (Height/100)**2 
 
 The program uses if-elif statements to check which weight category the user falls into based on their BMI.
 

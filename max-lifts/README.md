@@ -13,7 +13,7 @@ The program will then calculate the one rep max using the Epley formula and disp
 ## How it works
 The Epley formula is used to calculate the one rep max. The formula is as follows:
 
-1RM = weight / (1.0278 - 0.0278 x reps)
+**1RM = weight / (1.0278 - 0.0278 x reps)**
 
 Where weight is the weight lifted in kilograms and reps is the number of reps you can do with that weight.
 
