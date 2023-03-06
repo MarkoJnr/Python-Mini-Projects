@@ -1,4 +1,4 @@
-## Python Rollercoaster Ticketing System
+## Rollercoaster Ticketing System
 
 This is a simple Python program that simulates a ticketing system for a rollercoaster. 
 
