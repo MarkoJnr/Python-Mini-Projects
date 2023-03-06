@@ -23,3 +23,4 @@ Run the command **python [example-project].py** to launch the program.
 ## [Tip Calculator](./tip-calculator)
 ## [Leap Year Checker](./leap)
 ## [Rollercoaster Ticketing System](./rollercoaster)
+## [Capital City Quiz](./capitals)
