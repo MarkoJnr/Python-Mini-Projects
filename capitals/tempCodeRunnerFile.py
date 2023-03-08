@@ -1,1 +1,0 @@
-for country in random.sample(list(capitals.keys()), k=10):
