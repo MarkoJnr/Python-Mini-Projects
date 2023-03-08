@@ -5,29 +5,24 @@ capitals = {"Germany": "Berlin", "France": "Paris", "Spain": "Madrid", "Italy": 
 score = 0
 print ("How good are you with capitals? Let's start with 10 easy countries.")
 for country, capital in capitals.items():
-    print(f"What is the capital of {country}?")
-    answer = input("Enter your answer: ")
+    print(f"What is the capital of {country}?\n")
+    answer = input("Enter your answer: \n")
 
     if answer.lower() == capital.lower():
-        print("Correct!")
+        print("Correct!\n")
         score += 1
     else:
-        print(f"Incorrect. The capital of {country} is {capital}.")
+        print(f"Incorrect. The capital of {country} is {capital}.\n")
 
 # print the final score
-print(f"Your score is {score} out of {len(capitals)}.")
+print(f"Your score is {score} out of {len(capitals)}.\n")
 
 if score>=8:
-    print ("You will be taken to the next level, great work! However, now let's make it more difficult, 10 randomly picked countries will be generated, let's see what your made of!")
+    print ("You will be taken to the next level, great work! However, now let's make it more difficult, 10 randomly picked countries will be generated, let's see what your made of!\n")
+    #10 random question generator
+    import random
     
-#10 random question generator
-else:
-    print ("Sorry, you didnt pass. Work on your capital city knowledge! :)")
-
-
-import random
-
-capitals = {
+    capitals = {
     "Afghanistan": "Kabul",
     "Albania": "Tirana",
     "Algeria": "Algiers",
@@ -223,23 +218,24 @@ capitals = {
     "Vietnam": "Hanoi",
     "Yemen": "Sana'a",
     "Zambia": "Lusaka",
-    "Zimbabwe": "Harare"
-}
-score = 0
-
-for country in random.sample(list(capitals.keys()), k=10):
-    print(f"What is the capital of {country}?")
-    answer = input("Enter your answer: ")
-
-    capital = capitals[country]
+    "Zimbabwe": "Harare"}
+    score = 0
+    capital = random.sample(list(capitals.items()), 10)
+    for country, capital in capital:
+        print(f"What is the capital of {country}?")
+        answer = input("Enter your answer: ")
+    
     if answer.lower() == capital.lower():
         print("Correct!")
         score += 1
     else:
         print(f"Incorrect. The capital of {country} is {capital}.")
+        
+    print(f" Well done! Your score is {score} out of 10.")
 
-# print the final score
-print(f"Your score is {score} out of 10.")
+else:
+    print ("Sorry, you didnt pass. Work on your capital city knowledge! :)\n")
+
 
 
 

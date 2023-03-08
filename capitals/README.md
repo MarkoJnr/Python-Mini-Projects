@@ -16,7 +16,7 @@ After completing the quiz, the script will display your score and give you the o
 
 ## How it works
 
-The script uses a dictionary to store the names of different countries and their corresponding capital cities. 
+The script uses a dictionary to store the names of different countries as keys and their corresponding capital cities as values. 
 
 It then uses a loop to iterate over each item in the dictionary and ask the user to enter the capital city name for each country. 
 
