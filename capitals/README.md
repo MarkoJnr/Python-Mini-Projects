@@ -4,9 +4,14 @@ This is a Python script that tests your knowledge of capital cities of different
 
 ## How to use
 
-Answer each question by typing the name of the capital city and pressing Enter.
+The game is divided into two parts. The first part consists of 10 easy questions, where you will be asked to provide the capital of a given country.
 
-After completing the quiz, the script will display your score and give you the option to take the advanced quiz if you passed.
+When you run the game, you will be asked to provide the capital of each country.
+
+Type your answer and press "Enter". If your answer is correct, you will receive a message saying "Correct!" and your score will increase by 1. 
+
+If your answer is incorrect, you will receive a message saying "Incorrect. The capital of [country] is [capital]." and your score will remain the same.
+
 
 ## How it works
 
@@ -18,8 +23,8 @@ The user's input is compared to the correct answer for each question, and a scor
 
 If the user scores at least 8 out of 10 on the easy quiz, the script generates a new set of 10 questions using the **random.sample** method. 
 
+The second part consists of 10 randomly selected questions from a list of 195 countries and their capitals.
+
 If the user's score is less than 8, the program ends with a message encouraging the user to work on their capital city knowledge.
 
-The user who passed is asked to enter the capital city name for each country, and a new score is calculated based on the number of correct answers.
-
-At the end of the quiz, the user's score and the number of questions asked are displayed, along with a message indicating whether they passed the quiz or not. 
+At the end of the game, you will receive a message telling you your final score out of the total number of questions.
