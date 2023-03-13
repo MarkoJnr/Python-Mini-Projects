@@ -1,6 +1,8 @@
 ## QR Code Generator
 
-This is a Python code that allows a user to enter a text or link and generates a QR code for it using the pyqrcode library. 
+This is a Python code that allows a user to enter a text or link and generates a QR code for it using the **pyqrcode library**. 
+
+## How it Works
 
 The generated QR code is then saved as a PNG file with the name 'qr_code.png' and a scale factor of 8.
 
