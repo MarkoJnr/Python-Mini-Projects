@@ -24,3 +24,4 @@ Run the command **python [example-project].py** to launch the program.
 ## [Leap Year Checker](./leap)
 ## [Rollercoaster Ticketing System](./rollercoaster)
 ## [Capital City Quiz](./capitals)
+## [QR Code Generator](./qr-code)
