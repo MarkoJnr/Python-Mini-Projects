@@ -19,7 +19,7 @@ Where weight is the weight lifted in kilograms and reps is the number of reps yo
 
 The program begins by prompting the user to enter the weight lifted and the number of reps using the "input" function. The "int" function is used to convert the input to an integer data type.
 
-Next, the program calculates the one rep max using the Epley formula, which is stored in the "maximum" variable. The result is then formatted to two decimal places using the "{:.2f}" format specifier.
+Next, the program calculates the one rep max using the Epley formula, which is stored in the "maximum" variable. The result is then formatted to two decimal places using the **"{:.2f}"** format specifier.
 
 Finally, the program prints the result to the console using the "print" function.
 

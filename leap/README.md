@@ -19,7 +19,7 @@ If the year is not a leap year, the script will also output the fact that a year
 
 ## How it works
 
-The script uses the modulo operator (%) to determine whether the input year is evenly divisible by 4, 100, and 400. 
+The script uses the **modulo operator** (%) to determine whether the input year is evenly divisible by 4, 100, and 400. 
 
 If the year is divisible by 4 but not by 100, it is a leap year. 
 
