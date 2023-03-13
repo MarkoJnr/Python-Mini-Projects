@@ -10,7 +10,6 @@ The program also asks if the user wants a photo, and if they do, the ticket pric
 
 ## How to Use
 
-Run the program by opening it in a Python interpreter or IDE.
 
 When prompted, enter your height in centimeters.
 
@@ -28,4 +27,4 @@ The program uses simple conditional statements to determine if the user is tall 
 
 The program then asks if the user wants a photo, and if they do, the ticket price is updated using a conditional statement.
 
- Finally, the program displays the final ticket price and a message to enjoy the ride!
+Finally, the program displays the final ticket price and a message to enjoy the ride!

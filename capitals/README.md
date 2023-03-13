@@ -4,12 +4,6 @@ This is a Python script that tests your knowledge of capital cities of different
 
 ## How to use
 
-Clone or download the repository to your local machine.
-
-Navigate to the directory containing the script.
-
-Run the script using the command **python capitals.py**
-
 Answer each question by typing the name of the capital city and pressing Enter.
 
 After completing the quiz, the script will display your score and give you the option to take the advanced quiz if you passed.

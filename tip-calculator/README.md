@@ -2,7 +2,6 @@
 This Python program calculates the tip amount and final bill amount per person when dining at a restaurant.
 
 ## How to Use
-Run the program using a Python interpreter (e.g. IDLE, PyCharm, or VS Code).
 
 Enter the total bill amount when prompted.
 

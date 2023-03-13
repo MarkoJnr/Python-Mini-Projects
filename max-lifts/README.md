@@ -2,7 +2,6 @@
 This Python program calculates the one rep max of a weightlifter based on the weight they lifted and the number of reps they can do with that weight. The program uses the Epley formula to calculate the one rep max.
 
 ## How to Use
-Run the program using a Python interpreter (e.g. IDLE, PyCharm, or VS Code).
 
 Enter the weight lifted in kilograms when prompted.
 
