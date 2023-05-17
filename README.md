@@ -25,3 +25,4 @@ Run the command **python [example-project].py** to launch the program.
 ## [Rollercoaster Ticketing System](./rollercoaster)
 ## [Capital City Quiz](./capitals)
 ## [QR Code Generator](./qr-code)
+## [Bill Roulette](./bill-roulette)
